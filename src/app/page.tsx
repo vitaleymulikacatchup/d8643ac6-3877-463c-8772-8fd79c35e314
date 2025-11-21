@@ -13,7 +13,7 @@ import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { Zap, Rocket, Settings, Wind, Battery, Shield, Car, BarChart3, Gauge, CheckCircle, Users, MessageSquare, HelpCircle, Instagram, Twitter, Youtube, Facebook, Linkedin, Leaf } from 'lucide-react';
+import { Zap, Rocket, Settings, Wind, Battery, Shield, Car, BarChart3, Gauge, CheckCircle, Users, MessageSquare, HelpCircle, Instagram, Twitter, Youtube, Facebook, Linkedin, Leaf, Award } from 'lucide-react';
 
 export default function F1RacingPage() {
   return (
@@ -344,6 +344,7 @@ export default function F1RacingPage() {
           title="Trusted by Racing Teams Worldwide"
           description="The world's premier Formula 1 teams choose our technology and partnership for championship success"
           tag="Partners"
+          tagIcon={Award}
           textboxLayout="default"
           logos={[
             "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763723628517-oupcde7w.jpg",
